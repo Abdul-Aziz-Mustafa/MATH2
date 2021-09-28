@@ -1,7 +1,7 @@
 cdf = zeros(1, 101); %creating the array cdf with zeroes
 
 for i = 1:100
-   % cdf(i) = cdf(i - 1) + 0.9*(0.1)^(i-2);
+   % cdf(i) = cdf(i - 1) + 0.9*(0.1)^(i-2);%gg
    for j= 1: i
         cdf(i) =cdf(i)+0.9*(0.1)^(j-1);  %summing the probablity fromn 1 to i
     end
